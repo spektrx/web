@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(153, 253, 103) 0%, rgb(88, 255, 228) 100%);
+    margin: 0;
+    position: relative;
+    
+}
+
+.container{
+    position:absolute;
+    /*  position: relative; */
+    background: white;
+    width: 100%;
+    height: 69px;
+    bottom: 0;
+}
+
+.logo{
+    position: absolute;
+    top: 18.5px;
+    left: 16px;
+}
+.top-text{  
+    position: absolute;
+    top: 12px;
+    left: 64px;
+    font-size: 16px;
+
+}
+
+.bottom-text{
+    position: absolute;
+    left: 64px;
+    bottom: 12px;
+    font-size: 14px;
+}
+
+.email{
+    position: absolute;
+    right: 175px;
+    top: 14.5px;
+    width: 289px;
+    height: 40px;
+
+}
+
+.btn{
+    position: absolute;
+    right: 64px;
+    top: 14.5px;
+    width: 95px;
+    height: 45px;
+    background: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+
+}
+
+.cross{
+    position: absolute;
+    right: 18.5px;
+    top:18.5px
+}

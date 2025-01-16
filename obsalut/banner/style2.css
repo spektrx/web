@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(153, 253, 103) 0%, rgb(88, 255, 228) 100%);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    height: 69px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 16px;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-text {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.bottom-text {
+    font-size: 14px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.email {
+    width: 289px;
+    height: 40px;
+}
+
+.btn {
+    width: 95px;
+    height: 45px;
+    background: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cross {
+    width: 24px; /* задайте размер, если требуется */
+    height: 24px;
+    cursor: pointer;
+}
