@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="table">
+        <div class="table-container" id="table-container">
+            <div class="table__header">
+                <div class="table__header__text-row">
+                    <div class="table__header__text-head">Table Header</div>
+                    <div class="table__header__text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                <div class="table__header__buttons">
+                    <a href="" class="table__header-btn btn-light">Button</a>
+                    <a href="" class="table__header-btn btn-dark">Button</a>
+                </div>
+            </div>
+            <table class="table-content">
+                <thead>
+                    <tr class="table-head">
+                        <th class="table-head__text">Name</th>
+                        <th class="table-head__text">Company</th>
+                        <th class="table-head__text">Number</th>
+                        <th class="table-head__text">Team</th>
+                        <th class="table-head__text table-head__big-text">Date <img src="img/arrow_downward.svg" alt="" class="table-head__text-img"></th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- Данные таблицы будут добавляться сюда через JavaScript -->
+                </tbody>
+            </table>
+            <div class="table-footer">
+                <div class="table-footer__content">
+                    <div class="table-footer__prev-btn">
+                        <img src="img/Chevron Left.svg" alt="" class="table-footer__prev-btn__img">
+                        <div class="table-footer__prev-btn__text">Prev</div>
+                    </div>
+                    <div class="table-footer__pages">
+                        <a href="" class="table-footer__pages__btn pages__btn-selected">1</a>
+                        <a href="" class="table-footer__pages__btn">2</a>
+                        <a href="" class="table-footer__pages__btn">3</a>
+                        <a href="" class="table-footer__pages__btn">4</a>
+                    </div>
+                    <div class="table-footer__next-btn">
+                        <img src="img/Chevron Left.svg" alt="" class="table-footer__prev-btn__img">
+                        <div class="table-footer__next-btn__text">Next</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

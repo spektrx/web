@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="table-main">
+        <tbody>
+            <tr>
+                <td>
+                    <table class="table-inside">
+                        <tbody>
+                            <tr>
+                                <td class="header-row"><a class="toggle">open</a></td>
+                                <td>always-show 1</td>
+                                <td>always-show 2</td>
+                                <td>always-show 3</td>
+                                <td>always-show 4</td>
+                            </tr>
+                            <tr class="hidden-content">
+                                <td>hidden 1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="hidden-content">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="hidden-content">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="table-inside">
+                        <tbody>
+                            <tr>
+                                <td class="header-row"><a class="toggle">open</a></td>
+                                <td>always-show 1</td>
+                                <td>always-show 2</td>
+                                <td>always-show 3</td>
+                                <td>always-show 4</td>
+                            </tr>
+                            <tr class="hidden-content">
+                                <td>hidden 1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="hidden-content">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="hidden-content">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

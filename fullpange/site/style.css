@@ -715,3 +715,112 @@ body {
 }
 
 /* Footer */
+
+/*Responsive*/
+
+@media screen and (max-width: 1024px) {
+    .header{
+        height: 84px;
+    }
+
+    .header .header-container .header__nav{
+        display: none;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: white;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        flex-direction: column;
+        overflow-y: hidden;
+        overflow-y: hidden;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .header .header-container .header__nav.active{
+        display: flex;
+    }
+
+    .header .header-container .header__nav .header__links .header__links-link a,
+    .header .header-container .header__nav .header__links .link-big{
+        font-size: 32px;
+    }
+
+    .header .header-container .header__nav .header__links{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__links-hidden{
+        transform: translateY(-600px);
+
+    }
+
+    .burger{
+        display: block;
+        position: relative;
+        z-index: 999;  
+
+    }
+    
+    .burger.active span{
+        background: white;
+    }
+
+    .burger.active span::before{
+        transform: rotate(45deg);
+    }
+
+    .burger.active span::after{
+        transform: rotate(-45deg);
+    }
+
+    .burger span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: black;
+    }
+    
+    .burger span::before {
+        content: ' ';
+        width: 20px;
+        height: 2px;
+        position: absolute;
+        transform: translateY(-5px);
+        background: black;
+    }
+
+    .burger span::after {
+        content: ' ';
+        width: 20px;
+        height: 2px;
+        position: absolute;
+        transform: translateY(5px);
+        background: black;
+    }
+
+    .pricing-block{
+        display: flex;
+        max-width: 1024px;
+    }
+    .trusted-by .trusted-by__content .trusted-by__icons {
+        display: flex;
+        gap: 32px;
+        align-items: flex-start;
+        padding-left: 0px;
+        flex-direction: column;
+    }
+
+    .trusted-by .trusted-by__content {
+        display: block;
+        width: 300px;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 64px;
+    }
+
+
+}
